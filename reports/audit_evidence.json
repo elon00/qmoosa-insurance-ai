@@ -1,0 +1,10 @@
+{
+  "project": "qmoosa-insurance-ai",
+  "commit_sha": "06e5865760cd7d9c4a0c4612af8f6acd14524e1f",
+  "timestamp": "2026-10-28T07:44:58.823828Z",
+  "score": 100,
+  "theme": "Universal Multichain Parametric Risk Actuary & Reinsurance Protocol",
+  "blockchain": "Universal Web4 Multichain Hub",
+  "contract": "QmoosaUniversalInsuranceCore.sol",
+  "reality_check_output": "======================================================================\n    REALITY CHECK HARNESS: qmoosa-insurance-ai ($QINS)\n    Chain: Universal Web4 Multichain Hub\n======================================================================\n[PASS] Gate 1: Conway Non-Linear Invariant State Engine verified (+25)\n[PASS] Gate 2: Smart Contract verified (QmoosaUniversalInsuranceCore.sol) (+25)\n[PASS] Gate 3: Native MCP Tools schema verified (+20)\n[PASS] Gate 4: Interactive Launchpad UI verified (+15)\n[PASS] Gate 5: CI/CD Pipeline & Zero Key Exposure verified (+15)\n----------------------------------------------------------------------\nFINAL REALITY VERIFICATION SCORE: 100/100\nVERDICT: 100/100 GENUINE GREEN - READY FOR PRODUCTION\n======================================================================\n"
+}
