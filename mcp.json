@@ -1,0 +1,39 @@
+{
+  "mcpServers": {
+    "qmoosa-insurance-ai": {
+      "tools": [
+        {
+          "name": "aggregate_crosschain_risk",
+          "description": "Aggregates risk exposure and solvency metrics across all supported blockchains",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "chain_filter": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        {
+          "name": "settle_universal_reinsurance",
+          "description": "Triggers cross-chain reinsurance settlement and collateral rebalancing",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "target_chain": {
+                "type": "string"
+              },
+              "reinsurance_payout_usd": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "target_chain",
+              "reinsurance_payout_usd"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
